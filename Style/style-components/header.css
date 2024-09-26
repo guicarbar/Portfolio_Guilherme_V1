@@ -44,26 +44,23 @@ header {
 
 /* list menu */
 .menu_list {
-    list-style: none;
     background-color: var(--color3);
-    display: none;
+    display: flex;
+    flex-flow: column nowrap;
     position: absolute;
     top: 98%;
     right: 0%;
 }
 
-.menu_list>li {
-    padding: 8px 1em;
+.menu_list>a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.5em 1em;
     border-bottom: 1px solid var(--color1);
     transition: all 0.3s ease;
 }
 
-.menu_list>li:hover {
+.menu_list>a:hover {
     cursor: pointer;
     background-color: var(--color1);
-}
-
-.menu_list>li>a {
-    text-decoration: none;
-    font-size: 18px;
 }

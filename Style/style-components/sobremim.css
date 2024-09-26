@@ -16,7 +16,7 @@
     background-image: url(../img/Bg_white.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 3em;
+    padding-top: 6em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -28,7 +28,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    gap: 3em;
+    gap: 2em;
 }
 
 .sobremim_text_area>h2 {

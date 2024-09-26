@@ -80,7 +80,9 @@
     }
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 /* media querrys */
 @media only screen and (min-width: 600px) {}
