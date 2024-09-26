@@ -1,0 +1,51 @@
+:root {
+    --color1: #5277e1;
+    --color2: #3e67ce;
+    --color3: #2958bc;
+    --color4: #1548a9;
+    --color5: #003896;
+    --linear_gradient: var(--color1), var(--color2), var(--color3), var(--color4), var(--color5);
+    --white: #ffffff;
+    --black: #00030c;
+}
+
+
+/* habilidades */
+
+.section_habilidades {
+    height: 100vh;
+    background-image: linear-gradient(90deg, var(--linear_gradient));
+    background-size: 200% 200%;
+    animation: moving_bg 6s ease infinite;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_habilidades>h2 {
+    padding-top: 3em;
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 4px solid var(--white);
+}
+
+.habilidades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.habilidades>p {
+    padding: 1em;
+    border: 2px solid var(--white);
+    border-radius: 32px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.habilidades>p:hover {
+    background-color: var(--color6);
+    color: var(--black);
+}

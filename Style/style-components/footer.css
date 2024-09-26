@@ -1,0 +1,48 @@
+:root {
+    --color1: #5277e1;
+    --color2: #3e67ce;
+    --color3: #2958bc;
+    --color4: #1548a9;
+    --color5: #003896;
+    --linear_gradient: var(--color1), var(--color2), var(--color3), var(--color4), var(--color5);
+    --white: #ffffff;
+    --black: #00030c;
+    --color6: #2197bd;
+}
+
+
+/* footer */
+
+footer {
+    height: 20vh;
+    background-image: linear-gradient(90deg, var(--linear_gradient));
+    background-size: 200% 200%;
+    animation: moving_bg 6s ease infinite;
+    position: relative;
+}
+
+footer>div {
+    background-color: var(--color6);
+    border-radius: 24px;
+    width: 70vw;
+    padding: 2em 0;
+    text-align: center;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+
+footer>div>h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer>p {
+    text-align: center;
+    width: 90vw;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

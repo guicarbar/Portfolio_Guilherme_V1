@@ -1,0 +1,92 @@
+/* main style */
+
+/* imports font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/* Imports components css */
+@import url(style-components/header.css);
+@import url(style-components/banner.css);
+@import url(style-components/sobremim.css);
+@import url(style-components/habilidades.css);
+@import url(style-components/projetos.css);
+@import url(style-components/contato.css);
+@import url(style-components/footer.css);
+
+
+/* Variaveis raizes */
+:root {
+    --color1: #5277e1;
+    --color2: #3e67ce;
+    --color3: #2958bc;
+    --color4: #1548a9;
+    --color5: #003896;
+    --color6: #2197bd;
+    --white: #ffffff;
+    --black: #00030c;
+    --font_main: "Roboto Mono", monospace;
+}
+
+/* reset css basic */
+* {
+    font-size: 16px;
+    color: var(--white);
+    font-family: var(--font_main);
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.arrows {
+    text-align: center;
+}
+
+.arrows>p {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.blue>p {
+    color: var(--color1);
+}
+
+.arrows_animation {
+    animation: bounce_arrows 3s ease infinite;
+}
+
+@keyframes bounce_arrows {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes moving_bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+
+/* media querrys */
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1728px) {}

@@ -1,0 +1,45 @@
+:root {
+    --color1: #5277e1;
+    --color2: #3e67ce;
+    --color3: #2958bc;
+    --color4: #1548a9;
+    --color5: #003896;
+    --linear_gradient: var(--color1), var(--color2), var(--color3), var(--color4), var(--color5);
+    --white: #ffffff;
+    --black: #00030c;
+}
+
+/* sobre mim */
+
+.section_sobremim {
+    height: 100vh;
+    background-image: url(../img/Bg_white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.sobremim_text_area {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.sobremim_text_area>h2 {
+    color: var(--color1);
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 4px solid var(--color1);
+}
+
+.sobremim_text_area>p {
+    color: var(--black);
+    text-indent: 16px;
+    margin: 0 1.6em;
+}
