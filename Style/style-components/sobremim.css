@@ -12,3 +12,19 @@
 }
 
 /* sobre mim */
+.section_sobremim {
+    padding: 1em;
+    margin-top: 64px;
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.section_sobremim>p {
+    text-indent: 16px;
+    color: var(--black);
+    padding: 0 1em;
+}

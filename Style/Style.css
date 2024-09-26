@@ -28,6 +28,7 @@
     --font_main: "Roboto Mono", monospace;
 }
 
+
 /* css global */
 * {
     font-size: 16px;
@@ -45,7 +46,106 @@ html {
 
 
 /* tags globais */
+section {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.section_blue {
+    background-image: linear-gradient(90deg, var(--linear_gradient));
+    background-size: 300% 300%;
+    animation: moving_bg 6s ease infinite;
+}
+
+.section_white {
+    background-image: url(img/Bg_white.png);
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+
+/* title and text */
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 50%;
+}
+
+h1>span {
+    font-size: 32px;
+    border-bottom: 3px solid var(--white);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.blue_title {
+    color: var(--color3);
+    border-bottom: 3px solid var(--color3);
+}
+
+.white_title {
+    color: var(--white);
+    border-bottom: 3px solid var(--white);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* arrows */
+.arrow {
+    text-align: center;
+}
+
+.blue_arrow>p {
+    color: var(--color3);
+}
+
+.arrow>p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.arrow>img {
+    animation: bounce_arrows 2s ease infinite;
+}
+
+
+/* animations */
+/* bg animatio */
+@keyframes moving_bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+/* arrows animation */
+@keyframes bounce_arrows {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
 
 
 /* media querrys */

@@ -12,3 +12,9 @@
 }
 
 /* projetos */
+.section_projetos {
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}

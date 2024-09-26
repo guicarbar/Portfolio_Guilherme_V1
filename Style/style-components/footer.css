@@ -12,3 +12,22 @@
 }
 
 /* footer */
+footer {
+    padding: 1em 2em 0;
+    height: 30vh;
+    background-color: var(--color5);
+}
+
+footer>div {
+    width: 80%;
+    margin: auto;
+    padding: 1em 0;
+    background-color: var(--color6);
+    text-align: center;
+    border-radius: 24px;
+}
+
+footer>p {
+    margin-top: 2.6em;
+    text-align: center;
+}

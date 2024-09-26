@@ -12,3 +12,40 @@
 }
 
 /* Contato */
+.section_contato {
+    height: 100%;
+}
+
+.section_contato>div:first-child>p {
+    text-indent: 16px;
+}
+
+.section_contato>div:first-child, .contact {
+    height: 50%;
+    width: 100vw;
+    padding: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact>div {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contact>div>a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1em;
+}
+
+.link_text {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 3px solid var(--black);
+}

@@ -13,6 +13,7 @@
 
 /* header */
 header {
+    height: 64px;
     width: 100%;
     padding: 0.8em 1em;
     position: fixed;
@@ -21,6 +22,7 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between; 
     align-items: center;
+    z-index: 1;
 }
 
 
@@ -37,7 +39,7 @@ header {
 
 
 /* header - menu list */
-.header_menu_pc {
+.header_pc {
     display: none;
 }
 
@@ -109,12 +111,6 @@ header {
 
 /* media - 1024 */
 @media only screen and (min-width: 1024px) {
-/* header */
-    header {
-        height: 64px;
-    }
-
-
 /* header - name */
     .header_name>a, .header_name>a>span {
         font-size: 24px;
@@ -122,6 +118,10 @@ header {
 
 
 /* header - menu list */
+    .header_pc {
+        display: block;
+    }
+
     .header_menu_mobile {
         display: none;
     }

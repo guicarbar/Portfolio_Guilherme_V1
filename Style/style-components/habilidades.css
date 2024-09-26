@@ -12,3 +12,32 @@
 }
 
 /* habilidades */
+.section_habilidades {
+    height: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; align-items: center;
+    gap: 2em;
+}
+
+.habilidades {
+    padding: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.habilidades>p {
+    font-weight: 700;
+    padding: 1em;
+    border: 2px solid var(--color6);
+    border-radius: 32px;
+    transition: all 0.3s ease;
+}
+
+.habilidades>p:hover {
+    background-color: var(--color6);
+    color: var(--black);
+    transform: scale(1.1);
+}

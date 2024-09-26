@@ -12,3 +12,24 @@
 }
 
 /* banner section */
+.section_banner {
+    height: 70%;
+    margin-top: 64px;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.section_banner>a {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 3px solid var(--white);
+    align-self: center;
+    transition: all 0.3s ease;
+}
+
+.section_banner>a:hover {
+    transform: scale(1.1);
+}
