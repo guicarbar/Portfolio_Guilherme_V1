@@ -31,3 +31,36 @@ footer>p {
     margin-top: 2.6em;
     text-align: center;
 }
+
+
+/* media querrys */
+/* media - 600 */
+@media only screen and (min-width: 600px) {
+    footer {
+        height: 20vh;
+    }
+}
+
+/* media - 768 */
+@media only screen and (min-width: 768px) {
+    footer {
+        height: 15vh;
+    }
+}
+
+/* media - 1024 */
+@media only screen and (min-width: 1024px) {
+    footer {
+        height: 20vh;
+        position: relative;
+    }
+
+    footer>div {
+        position: absolute;
+        margin: 0;
+        width: 50vw;
+        top: -20%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}

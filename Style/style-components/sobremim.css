@@ -13,18 +13,67 @@
 
 /* sobre mim */
 .section_sobremim {
-    padding: 1em;
     margin-top: 64px;
-    height: 80%;
+    height: 90%;
+}
+
+.section_sobremim>div {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
     align-items: center;
     gap: 2em;
 }
 
-.section_sobremim>p {
+.section_sobremim>div>p {
     text-indent: 16px;
     color: var(--black);
     padding: 0 1em;
+}
+
+.creator {
+    display: none;
+}
+
+
+/* media querrys */
+/* media - 600 */
+@media only screen and (min-width: 600px) {
+/* sobre mim */
+    .section_sobremim {
+        padding: 0 3em;
+    }
+
+    .section_sobremim>div {
+        margin-top: 10em;
+    }
+}
+
+/* media - 1024 */
+@media only screen and (min-width: 1024px) {
+    .section_sobremim {
+        padding: 0;
+    }
+
+    .section_sobremim>div {
+        margin-top: 0;
+    }
+
+    .creator {
+        display: block;
+        max-height: 100%;
+    }
+
+    .section_sobremim>div {
+        gap: 1em;
+        margin-top: 2em;
+    }
+
+    .section_sobremim {
+        height: 80%;
+        padding: 1em 2em 0;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+        gap: 1.6em;
+    }
 }

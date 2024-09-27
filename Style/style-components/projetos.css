@@ -18,3 +18,20 @@
     flex-flow: column nowrap;
     justify-content: center;
 }
+
+
+/* media querrys */
+/* media - 600 */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* media - 768 */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* media - 1024 */
+@media only screen and (min-width: 1024px) {
+
+}

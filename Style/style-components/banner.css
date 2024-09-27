@@ -33,3 +33,24 @@
 .section_banner>a:hover {
     transform: scale(1.1);
 }
+
+
+/* media querrys */
+/* media - 600 */
+@media only screen and (min-width: 600px) {
+    .section_banner>a {
+        font-size: 28px;
+    }
+}
+
+/* media - 1024 */
+@media only screen and (min-width: 1024px) {
+    .section_banner {
+        width: 100%;
+        padding: 0 3em;
+    }
+
+    .section_banner>a {
+        align-self: flex-start;
+    }
+}

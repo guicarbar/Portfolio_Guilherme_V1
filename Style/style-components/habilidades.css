@@ -41,3 +41,27 @@
     color: var(--black);
     transform: scale(1.1);
 }
+
+
+/* media querrys */
+/* media - 600 */
+@media only screen and (min-width: 600px) {
+    .habilidades {
+        padding: 6em;
+    }
+}
+
+/* media - 768 */
+@media only screen and (min-width: 768px) {
+    .habilidades {
+        padding: 0 8em;
+    }
+}
+
+/* media - 1024 */
+@media only screen and (min-width: 1024px) {
+    .habilidades {
+        padding: 0;
+        width: 700px;
+    }
+}
