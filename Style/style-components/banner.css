@@ -54,3 +54,8 @@
         align-self: flex-start;
     }
 }
+
+/* media - 1728 */
+@media only screen and (min-width: 1728px) {
+    
+}

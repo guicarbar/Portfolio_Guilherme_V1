@@ -63,7 +63,7 @@ section {
 .section_white {
     background-image: url(img/Bg_white.png);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -171,14 +171,9 @@ h3 {
     * {
         font-size: 18px;
     }
-}
 
-/* media - 1024 */
-@media only screen and (min-width: 1024px) {
-
-}
-
-/* media - 1728 */
-@media only screen and (min-width: 1728px) {
-    
+    #contato {
+        width: 100%;
+        background-image: linear-gradient(90deg, var(--linear_gradient));
+    }
 }

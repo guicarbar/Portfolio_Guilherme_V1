@@ -64,3 +64,10 @@ footer>p {
         transform: translate(-50%, 0);
     }
 }
+
+/* media - 1728 */
+@media only screen and (min-width: 1728px) {
+    footer {
+        padding: 2em 0;
+    }
+}
