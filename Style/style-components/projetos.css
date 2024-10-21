@@ -21,24 +21,32 @@
     gap: 1em;
 }
 
+.section_projetos>div {
+    margin-top: 3em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
 .card {
-    padding: 2em;
-}
-
-.card>a {
-    color: var(--black);
+    width: 30%;;
+    padding: 1em;
+    background-color: var(--color3);
+    border-radius: 32px;
     text-decoration: none;
+    text-align: center;
+}
+
+.card>p:first-child {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 1em;
+    color: var(--white);
 }
 
-.card>a::before {
-    content: url(../img/Svg/link.svg);
-}
-
-.card>p {
-    color: var(--black);
+.card>p:last-child {
+    color: var(--white);
 }
 
 
